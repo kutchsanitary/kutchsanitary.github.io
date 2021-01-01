@@ -38,7 +38,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sections/image-gallery/</guid>
-      <description>  (function () { Galleria.loadTheme( &#39;https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js&#39;); Galleria.run(&#39;.galleria&#39;, {autoplay: true, thumbnails: false, variation: &#39;light&#39;}); }() );    </description>
+      <description>  (function () { Galleria.loadTheme( &#39;https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/miniml/galleria.miniml.min.js&#39;); Galleria.run(&#39;.galleria&#39;, {autoplay: true, thumbnails: false, showCounter: &#39;true&#39;}); }() );    </description>
     </item>
     
   </channel>
