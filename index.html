@@ -43,6 +43,8 @@
 
 
 <link rel="stylesheet" href="/css/bundle.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
 </head>
 <body><header class="header ">
     <div class="header__title">
@@ -157,6 +159,9 @@
         
     </div>
 </main>
+<div class="arrow bounce">
+    <a class="fa fa-angle-double-down fa-3x" href="#"></a>
+</div>
 
 
 
@@ -179,6 +184,36 @@
     <h1 class="section__title">Comprehensive Choices</h1>
     <div class="section__content">
         <p>Over 50+ years we have mindfully partnered with leading sanitaryware manufactures and can offer a wide range of premium products of the brands that interest you. Check out the <a href="brands">Brands</a> we partner with to learn more!</p>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="section">
+    <h1 class="section__title"></h1>
+    <div class="section__content">
+        <div class="galleria" style="height: 400px;">
+    <img src="images/photos/home/home-new1.jpg">
+    <img src="images/photos/home/home-new2.jpg">
+    <img src="images/photos/home/home-new3.jpg">
+    <img src="images/photos/home/home-new4.jpg">
+</div>
+<script>
+    (function () {
+        Galleria.loadTheme(
+            'https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+        Galleria.run('.galleria', {autoplay: true, thumbnails: false, variation: 'light'});
+    }()
+    );
+</script>
+<script>
+
+</script>
 
     </div>
 </section>
