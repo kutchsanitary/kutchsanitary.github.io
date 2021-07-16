@@ -10,7 +10,7 @@
 
 	
 
-	<meta name="generator" content="Hugo 0.79.0" />
+	<meta name="generator" content="Hugo 0.84.1" />
 
 	
 
@@ -23,8 +23,7 @@
 	<meta property="og:title" content="UPI Payment" />
 <meta property="og:description" content="Pay via your smartphone!" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="/pay/" />
-<meta property="og:image" content="/images/upi-logo.svg" />
+<meta property="og:url" content="/pay/" /><meta property="og:image" content="/images/upi-logo.svg" />
 
 
 
@@ -66,10 +65,10 @@
             </a>
         </li>
         
-        <li class="menu__items__item" aria-label="About">
+        <li class="menu__items__item" aria-label="About Us">
             <a href="/about/" class="menu__items__item__link "
-                alt="About" role="menuitem">
-                About
+                alt="About Us" role="menuitem">
+                About Us
             </a>
         </li>
         
@@ -111,9 +110,9 @@
                 </a>
             </li>
             
-            <li class="hamburger__items__item" aria-label="About">
-                <a href="/about/" class="hamburger__items__item__link" alt="About" role="menuitem">
-                    About
+            <li class="hamburger__items__item" aria-label="About Us">
+                <a href="/about/" class="hamburger__items__item__link" alt="About Us" role="menuitem">
+                    About Us
                 </a>
             </li>
             
@@ -145,12 +144,14 @@
     <h1 class="pay__title">UPI Payment</h1>
     <p class="pay__content">Pay via your smartphone!</p>
     <figure>
-        <img src="/images/upi-pay/upi-qr.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="60%"/> <figcaption>
-                <h4>Scan using PhonePe, Google Pay, Paytm or use the &#39;Pay Now&#39; button on your smartphone</h4>
-            </figcaption>
+        <img src="/images/upi-pay/upi-qr.jpg" style="display: block; margin-left: auto; margin-right: auto;"
+            width="60%" />
+        <figcaption>
+            <h4>Scan using PhonePe, Google Pay, Paytm or use the &#39;Pay Now&#39; button on your smartphone</h4>
+        </figcaption>
     </figure>
     
-<a  href="upi://pay?pa=Q95206499@ybl&pn=Kutch Sanitary Store&mc=0000&mode=02&purpose=00"  class="button ripple-btn">
+<a  id="Button" href="upi://pay?pa=Q95206499@ybl&pn=Kutch Sanitary Store&mc=0000&mode=02&purpose=00"  class="button ripple-btn">
   
   
   
@@ -160,6 +161,36 @@
 
     <span style='color:red;margin-right:1.25em; display:inline-block;'>&nbsp;</span>
 </main>
+<script>
+    function getOS() {
+        var userAgent = window.navigator.userAgent,
+            platform = window.navigator.platform,
+            macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+            windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+            iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+            os = null;
+
+        if (macosPlatforms.indexOf(platform) !== -1) {
+            os = 'Mac';
+        } else if (iosPlatforms.indexOf(platform) !== -1) {
+            os = 'iOS';
+        } else if (windowsPlatforms.indexOf(platform) !== -1) {
+            os = 'Windows';
+        } else if (/Android/.test(userAgent)) {
+            os = 'Android';
+        } else if (!os && /Linux/.test(platform)) {
+            os = 'Linux';
+        }
+
+        return os;
+    }
+    let detectedOS=getOS;
+    if (detectedOS === "Windows" || detectedOS == "Mac") {
+        var button = $('#button');
+    $(button).attr('disabled', 'disabled');
+
+    }
+</script>
 <footer class="footer">
     
 
@@ -203,7 +234,7 @@
 
 
 
-<script src="/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
+<script src="/js/bundle.min.58209fc971cd5bd08cd889189ae476bf3c16736fd03234aeb7580bc6c504f5adc6797c906cb341a98099719e32801c5d3d1d3abd1ecded9433aedc2d34c7bc8d.js"></script>
 
 
 
