@@ -4,7 +4,8 @@
     <title>Home on Kutch Sanitary Store</title>
     <link>/</link>
     <description>Recent content in Home on Kutch Sanitary Store</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Values</title>
       <link>/sections/simple-values/</link>
