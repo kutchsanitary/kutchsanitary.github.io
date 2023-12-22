@@ -5,33 +5,28 @@
     <link>/sections/</link>
     <description>Recent content in Sections on Kutch Sanitary Store</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/sections/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="/sections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Values</title>
       <link>/sections/simple-values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/sections/simple-values/</guid>
       <description>Our business serves the city of Bhuj with a strong emphasis on reliability. Be it faucets, bathtubs, showers, or one of the thousands of sanitaryware items that we stock, we have got you covered and will help you build your home or office faster.</description>
     </item>
-    
     <item>
       <title>Comprehensive Choices</title>
       <link>/sections/comprehensive-choices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/sections/comprehensive-choices/</guid>
       <description>Over 50+ years we have mindfully partnered with leading sanitaryware manufactures and can offer a wide range of premium products of the brands that interest you. Check out the Brands we partner with to learn more!</description>
     </item>
-    
     <item>
       <title></title>
       <link>/sections/image-gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/sections/image-gallery/</guid>
       <description> </description>
     </item>
-    
   </channel>
 </rss>

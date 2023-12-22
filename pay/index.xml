@@ -5,6 +5,7 @@
     <link>/pay/</link>
     <description>Recent content in UPI Payment on Kutch Sanitary Store</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/pay/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="/pay/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
